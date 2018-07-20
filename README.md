@@ -2,7 +2,7 @@
 
 ## Distributed Machine Learning with H2O
 
-###Prerequisites for H2O
+### Prerequisites for H2O
 
 [H2O-3 Requirements](http://h2o-release.s3.amazonaws.com/h2o/rel-wolpert/9/docs-website/h2o-docs/welcome.html#requirements)
 
