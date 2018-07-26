@@ -1,2 +1,3 @@
 *.pptx
 .Rapp.history
+.ipynb_checkpoints/
