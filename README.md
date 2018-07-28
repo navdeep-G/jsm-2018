@@ -26,18 +26,7 @@ library(h2o)
 h2o.init()
 ```
 
-### Install H2O in Python
-```
-pip install requests
-pip install tabulate
-pip install scikit-learn
-pip install colorama
-pip install future
-```
-```
-# The following command removes the H2O module for Python.
-pip uninstall h2o
+### Running R script
 
-# Next, use pip to install this version of the H2O Python module.
-pip install http://h2o-release.s3.amazonaws.com/h2o/rel-wright/3/Python/h2o-3.20.0.3-py2.py3-none-any.whl
-```
+* The [R](https://github.com/navdeep-G/jsm-2018/blob/master/h2o_airlines.R) script is meant to be run in a multi-node (EC2 or cluster of CPU's) setup as the data used is quite large (airlines dataset)
+* If you choose to use an EC2 instance please follow the guide in this [repo](https://github.com/navdeep-G/h2o-ec2)
