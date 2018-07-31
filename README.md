@@ -29,4 +29,4 @@ h2o.init()
 ### Running R script
 
 * The [R](https://github.com/navdeep-G/jsm-2018/blob/master/h2o_airlines.R) script is meant to be run in a multi-node (EC2 or cluster of CPU's) setup as the data used is quite large (airlines dataset)
-* [Here](https://github.com/navdeep-G/h2o-ec2) is a guide to setup your own EC2 instance with the latest H2O-3
+* [Here](https://github.com/navdeep-G/h2o-ec2) is a guide to setup your own EC2 instance with the latest [H2O-3](http://h2o-release.s3.amazonaws.com/h2o/rel-wright/3/index.html)
