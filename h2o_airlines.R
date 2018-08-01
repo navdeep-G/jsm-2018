@@ -17,7 +17,10 @@ h2o.init()
 
 ## Import data into H2O via s3n
 print("Importing airlines dataset into H2O...")
+start   <- Sys.time()
 airlines.hex <- h2o.importFile(path = "s3n://h2o-airlines-unpacked/allyears.1987.2013.csv")
+import_time <- Sys.time() - start
+print(paste("Took", round(import_time, digits = 2), units(import_time), "to import data."))
 airlines.hex$AirTime  <- as.numeric(airlines.hex$AirTime)
 airlines.hex$ArrDelay<- as.numeric(airlines.hex$ArrDelay)
 
